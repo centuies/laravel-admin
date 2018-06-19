@@ -24,12 +24,14 @@ location / {
 ```
 git clone https://github.com/centuies/laravel-admin.git
 ```
+
 2.进入项目所在文件夹，使用composer安装包
 ```
 composer install
 ```
 
 3.将.env.example文件重命名为.env，修改数据库信息。
+
 4.应用秘钥
 ```
 php artisan key:generate
@@ -38,14 +40,17 @@ php artisan key:generate
 ```
 php artisan migrate
 ```
+
 6.填充数据
 ```
 php artisan db:seed
 ```
+
 7.修改storage 目录和bootstrap/cache 目录的权限
 ```
 chmod -R 777 storage/
 ```
+
 ## 默认密码
 
 后台默认用户名admin，默认密码admin。
