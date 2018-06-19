@@ -4,10 +4,14 @@
 
 ## 环境要求
 
-1.php版本必须大于7.1
+1.php版本必须大于7.1。
+
 2.服务器开启url重写
+
  (1)如果使用 Apache 作为服务容器，请启用 mod_rewrite模块，让服务器能够支持 .htaccess 文件的解析。
+ 
  (2)如果你使用的是 Nginx，在你的站点配置中加入以下内容，它将会将所有请求都引导到 index.php 前端控制器：
+ 
 ```
 location / {
     try_files $uri $uri/ /index.php?$query_string;
