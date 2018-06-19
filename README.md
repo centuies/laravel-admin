@@ -2,7 +2,8 @@
 
 本项目参考[https://github.com/xiayulei/open_source_bms](https://github.com/xiayulei/open_source_bms)，是由laravel5.5开发的一个后台管理系统。
 
-##环境要求
+## 环境要求
+
 1.php版本必须大于7.1
 2.服务器开启url重写
  (1)如果使用 Apache 作为服务容器，请启用 mod_rewrite模块，让服务器能够支持 .htaccess 文件的解析。
@@ -13,7 +14,7 @@ location / {
 }
 ```
 
-##安装
+## 安装
 
 1. git clone项目
 ```
@@ -41,6 +42,6 @@ php artisan db:seed
 ```
 chmod -R 777 storage/
 ```
-##默认密码
+## 默认密码
 
 后台默认用户名admin，默认密码admin。
