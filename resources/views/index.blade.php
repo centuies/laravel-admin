@@ -73,17 +73,12 @@
             <ul class="layui-nav">
                 <li class="layui-nav-item"><a href="">首页</a></li>
                 <li class="layui-nav-item"><a href="/login" target="_blank">后台演示</a></li>
-                <li class="layui-nav-item"><a href="https://github.com/xiayulei/open_source_bms" target="_blank">GitHub</a></li>
+                <li class="layui-nav-item"><a href="https://github.com/centuies/laravel-admin" target="_blank">GitHub</a></li>
             </ul>
         </div>
     </div>
 
-    <a href="" target="_blank" class="download-btn">下 载</a>
-
-    <div class="description">
-        <iframe frameborder="0" src="http://ghbtns.com/github-btn.html?user=xiayulei&amp;repo=think_admin&amp;type=star&amp;count=true" width="90" height="20"></iframe>
-        <iframe frameborder="0" src="http://ghbtns.com/github-btn.html?user=xiayulei&amp;repo=think_admin&amp;type=fork&amp;count=true" width="90" height="20"></iframe>
-    </div>
+    <a href="https://github.com/centuies/laravel-admin/archive/master.zip" target="_blank" class="download-btn">下 载</a>
 </div>
 
 <div class="layui-main content">
