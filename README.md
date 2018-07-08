@@ -2,6 +2,8 @@
 
 本项目参考[https://github.com/xiayulei/open_source_bms](https://github.com/xiayulei/open_source_bms)，是由laravel5.5开发的一个后台管理系统。
 
+![laravel-admin](https://github.com/centuies/laravel-admin/blob/master/public/images/admin.png)
+
 ## 环境要求
 
 1.php版本必须大于7.1。
