@@ -25,10 +25,8 @@ class CheckAuth
 			//获取权限组的权限
 			$auth = Authgroup::where('id',$group_id)->value('auth');
 			$id_array = explode(",",$auth);
-			//获取请求控制器，分配到视图。使后台菜单选中			
-			@$route = \Route::currentRouteName();
-			@list($controller,$method) = explode('.',$route);
-			@View::share('controller',$controller.'/');
+			//获取请求控制器			
+			$route = \Route::currentRouteName();
 			//根据请求路由查找菜单id
 			$menu_id = Menu::where('route',$route)->value('id');
 			//如果id在权限组中，允许操作

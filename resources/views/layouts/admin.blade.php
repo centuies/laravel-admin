@@ -39,16 +39,12 @@
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree">
-                <li class="layui-nav-item layui-nav-title"><a>管理菜单</a></li>
-                <li class="layui-nav-item">
-                    <a href="{{ route('home') }}"><i class="fa fa-home"></i> 网站信息</a>
-                </li>
                 <div class="layui-side layui-bg-black">
 					<div class="layui-side-scroll">
 						<ul class="layui-nav layui-nav-tree">
 							<li class="layui-nav-item layui-nav-title"><a>管理菜单</a></li>
-							<li class="layui-nav-item layui-this">
-								<a href="{{ route('home') }}"><i class="fa fa-home"></i> 网站信息</a>
+							<li class="layui-nav-item">
+								<a href="{{ route('home') .'/'}}"><i class="fa fa-home"></i> 网站信息</a>
 							</li>
 							<li class="layui-nav-item">
 								<a href="javascript:;"><i class="fa fa-gears"></i> 系统配置<span class="layui-nav-more"></span></a>
