@@ -44,7 +44,7 @@ Route::resource('admin','AdminController')->middleware('checkauth','auth');
 
 Route::post('authgroup/getauth','AuthGroupController@getauth')->middleware('auth');
 
-Route::post('authgroup/updateauth','AuthGroupController@updateauth')->middleware('checkauth','auth');
+Route::post('authgroup/updateauth','AuthGroupController@updateauth')->middleware('checkauth','auth')->name('updateauth');
 
 Route::resource('authgroup','AuthGroupController')->middleware('checkauth','auth');
 

@@ -648,8 +648,20 @@ class MenusTableSeeder extends Seeder
 		DB::table('menus')->insert([
 			'id'=>100,
             'pid' => 48,
-            'menu_name' => '授权',
+            'menu_name' => '显示授权页面',
             'route' =>'authgroup.show',
+			'icon'=> '',
+			'status'=> 1,
+			'menu_sort'=>0,
+			'created_at'=>Carbon::now('Asia/Shanghai'),
+			'updated_at'=>Carbon::now('Asia/Shanghai'),
+		]);
+
+		DB::table('menus')->insert([
+			'id'=>101,
+            'pid' => 48,
+            'menu_name' => '给用户授权',
+            'route' =>'updateauth',
 			'icon'=> '',
 			'status'=> 1,
 			'menu_sort'=>0,
